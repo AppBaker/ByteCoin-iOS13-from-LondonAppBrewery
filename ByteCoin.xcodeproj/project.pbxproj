@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		993F1215237A613200EE5230 /* BitcoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993F1214237A613200EE5230 /* BitcoinModel.swift */; };
+		993F1217237A619300EE5230 /* BitcoinData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993F1216237A619300EE5230 /* BitcoinData.swift */; };
 		ADA8AC092329367100626376 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA8AC082329367100626376 /* AppDelegate.swift */; };
 		ADA8AC0B2329367100626376 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA8AC0A2329367100626376 /* SceneDelegate.swift */; };
 		ADA8AC0D2329367100626376 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA8AC0C2329367100626376 /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		993F1214237A613200EE5230 /* BitcoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitcoinModel.swift; sourceTree = "<group>"; };
+		993F1216237A619300EE5230 /* BitcoinData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitcoinData.swift; sourceTree = "<group>"; };
 		ADA8AC052329367100626376 /* ByteCoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ByteCoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADA8AC082329367100626376 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADA8AC0A2329367100626376 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +94,8 @@
 			isa = PBXGroup;
 			children = (
 				ADA8AC1F2329398300626376 /* CoinManager.swift */,
+				993F1214237A613200EE5230 /* BitcoinModel.swift */,
+				993F1216237A619300EE5230 /* BitcoinData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -165,9 +171,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				993F1217237A619300EE5230 /* BitcoinData.swift in Sources */,
 				ADA8AC202329398300626376 /* CoinManager.swift in Sources */,
 				ADA8AC0D2329367100626376 /* ViewController.swift in Sources */,
 				ADA8AC092329367100626376 /* AppDelegate.swift in Sources */,
+				993F1215237A613200EE5230 /* BitcoinModel.swift in Sources */,
 				ADA8AC0B2329367100626376 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -313,7 +321,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3ECFYJZ64T;
+				DEVELOPMENT_TEAM = 5MS39QS696;
 				INFOPLIST_FILE = ByteCoin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -331,7 +339,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3ECFYJZ64T;
+				DEVELOPMENT_TEAM = 5MS39QS696;
 				INFOPLIST_FILE = ByteCoin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
